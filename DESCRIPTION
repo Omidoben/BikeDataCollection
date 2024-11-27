@@ -1,0 +1,28 @@
+Package: BikeDataCollection
+Type: Package
+Title: Capital Bikeshare Data Retrieval
+Version: 0.1.0
+Authors@R: person("Benard", "Omido", email = "omidobenard@gmail.com",
+  role = c("aut", "cre"))
+Description: This package allows users to easily retrieve and process Capital Bikeshare real-time data
+License: GPL (>=3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+RemoteType: github
+Depends:
+    R (>= 4.1)
+Imports:
+    dplyr,
+    httr2,
+    purrr,
+    stringr,
+    tibble,
+    tidyr,
+    rlang,
+    magrittr
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+   
